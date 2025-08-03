@@ -1,0 +1,20 @@
+:root {
+  --color-primary: #3B82F6;
+  --color-secondary: #6B7280;
+  --color-success: #10B981;
+  --color-danger: #EF4444;
+  --color-warning: #F59E0B;
+  --color-info: #06B6D4;
+  --color-light: #F8FAFC;
+  --color-dark: #1E293B;
+}
+
+/* Utility classes */
+.text-primary { color: var(--color-primary); }
+.bg-primary { background-color: var(--color-primary); }
+.text-secondary { color: var(--color-secondary); }
+.bg-secondary { background-color: var(--color-secondary); }
+.text-success { color: var(--color-success); }
+.bg-success { background-color: var(--color-success); }
+.text-danger { color: var(--color-danger); }
+.bg-danger { background-color: var(--color-danger); }
